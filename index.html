@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        .container-fluid {
+            background-color: antiquewhite;
+        }
+
+        nav {
+            font-size: 20px;
+        }
+
+        .head {
+            text-align: center;
+            height: 500px;
+        }
+
+        #ABOUTME {
+            background-color: black;
+            color: white;
+            height: 500px;
+        }
+
+        p {
+            margin-top: 2%;
+            text-align: left;
+            margin-left: 350px;
+            font-size: medium;
+        }
+    </style>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="container-fluid">
+        <div class="page-header">
+            <nav>
+                <a href="#HOME">HOME</a> &nbsp; | &nbsp;
+                <a href="#ABOUTME">ABOUT ME</a> &nbsp; | &nbsp;
+                <a href="#PORTFOLIO">PORTFOLIO</a> &nbsp; |
+            </nav>
+        </div>
+        <!--Home-->
+        <div class="Home" id="HOME">
+            <marquee direction="right" scrollamount="10" width="100%">Welcome!</marquee><br>
+            <div class="row head" style="background-color: brown; color: white;">
+                <div class="col-md-4 pic" style="margin-top: 120px;">
+                    <img src="Profile Pic.jpg" alt="Profile" borderradius="40px">
+                </div>
+                <div class="col-md-8 details" style="margin-top: 130px;">
+                    <h1>Hi! I'm Harsha Hargunani. <br>
+                        I'm a Web Developer and Programmer. </h1><br><br>
+                    <p>
+                        <u>Contact Details</u> <br>
+                        Email id : hargunaniharsha@gmail.com <br>
+                        Instagram : Click <a href="https://www.instagram.com/harsha_hargunani/">here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--About me-->
+        <div class="row AboutMe" id="ABOUTME">
+            <div class="AboutMe text-center" style="font-size: 40px; margin-top: 10%;"><u>ABOUT ME</u><br></div>
+            <div class="AboutMe Detail text-center">
+                <p>
+                    Harsha Hargunani, At present, I'm persuing B.E. in Artificial Intellegence and Machine Learning <BR>
+                    from Ramdeobaba College Of Engineering and Management, Nagpur. Currently I'm learning Object <BR>
+                    Oriented Programming using Java in my Second Semester.
+                </p>
+                <p>
+                    I know Web Developement using HTML and CSS. As a programmer I know C language and learning Python.
+                    <BR>
+                    I used Bootstrap for the first time for creating this website. This website is one of my project.
+                    <BR>
+                    I have other projects done as well, which you can see in the Porfolio section.
+                </p>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div class="row Portfolio" id="PORTFOLIO">
+            <div class="Portfolio text-center" style="background-color: brown; color: white; height: 60px; font-size: 40px;"><u>PORTFOLIO</u>
+            </div>
+            <div class="Portfolio Details text-center">
+                <div class="row">
+                    <div class="col-md-4" style="background-color:white;">
+                        <h4>Figma Mobile View Music Player</h4>
+                        <img src="Figma.GIF" alt="Figma Project" height="300px" width="250px"><br>
+                        To visit : Click on this<a role="button"
+                            href="https://www.figma.com/file/P4A6RUjYBMR1ED1WRzIIF7/Untitled?node-id=0%3A1"
+                            class="btn btn-link">Link</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Calculator Using HTML, CSS and Javascript</h4>
+                        <img src="Calci.JPG" alt="Calci" height="300px" width="350px"><br>
+                    </div>
+                    <div class="col-md-4" style="background-color:white;">
+                        <h4>Currency Convertor Using HTML, CSS and Javascript</h4>
+                        <img src="CurrencyConvt.JPG" alt="Currency" height="300px" width="350px"><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Online Book Store Page Using HTML and CSS</h4>
+                        <img src="Book Store.JPG" alt="Book Store Project" height="300px" width="350px"><br>
+                    </div>
+                    <div class="col-md-4" style="background-color:white;">
+                        <h4>C code for Online Shopping</h4>
+                        <img src="online shopping.JPG" alt="Shopping Code" height="300px" width="350px"><br>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>C code for Matrix Operations</h4>
+                        <img src="matrix.JPG" alt="Matrix Code" height="300px" width="350px"><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <marquee direction="right" scrollamount="10" width="100%" style="background-color: brown; color: white; height: 30px;">Thank
+            You!</marquee><br><br>
+    </div>
+    <!--end-->
+    </div>
+</body>
+
+</html>
